@@ -6,13 +6,16 @@ This repository contains automation scripts for the **OrangeHRM** Admin Module w
 1.Clone the Repo
    git clone https://github.com/<your_username>/AccuKnox-user-management-tests.git
    cd AccuKnox-user-management-tests
+   
 2.Create a virtual environment:
    python -m venv venv
+   
 3.Activate the virtual environment:
    Windows:
    venv\Scripts\activate
    Linx/Macos:
    source venv/bin/activate
+   
 4.Install dependencies:
    pip install -r requirements.txt
    playwright install
